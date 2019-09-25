@@ -16,16 +16,16 @@
 		D7343A84233AC6D0001A8483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7343A82233AC6D0001A8483 /* LaunchScreen.storyboard */; };
 		D7343A8F233AC6D0001A8483 /* MultitoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7343A8E233AC6D0001A8483 /* MultitoolTests.swift */; };
 		D7343A9A233AC6D0001A8483 /* MultitoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7343A99233AC6D0001A8483 /* MultitoolUITests.swift */; };
-		D7343AAF233ADC3B001A8483 /* crypto2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7343AAA233ADC3A001A8483 /* crypto2.jpg */; };
-		D7343AB0233ADC3B001A8483 /* crypto1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7343AAB233ADC3A001A8483 /* crypto1.jpg */; };
-		D7343AB1233ADC3B001A8483 /* currency1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7343AAC233ADC3A001A8483 /* currency1.jpg */; };
-		D7343AB2233ADC3B001A8483 /* currency2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7343AAD233ADC3A001A8483 /* currency2.png */; };
-		D7343AB3233ADC3B001A8483 /* crypto3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7343AAE233ADC3A001A8483 /* crypto3.jpg */; };
 		D7343AB5233ADD09001A8483 /* multitoolMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = D7343AB4233ADD09001A8483 /* multitoolMenu.json */; };
 		D7343AB7233ADD6A001A8483 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7343AB6233ADD6A001A8483 /* MenuRow.swift */; };
 		D7343AB9233ADD8D001A8483 /* MenuImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7343AB8233ADD8D001A8483 /* MenuImage.swift */; };
 		D7C5EAF7233C103D00053C8F /* MultitoolMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C5EAF6233C103D00053C8F /* MultitoolMenuModel.swift */; };
 		D7C5EAF9233C10E600053C8F /* MultitoolMenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C5EAF8233C10E600053C8F /* MultitoolMenuData.swift */; };
+		D7C5EB09233C2D4C00053C8F /* crypto1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7C5EB04233C2D4B00053C8F /* crypto1.jpg */; };
+		D7C5EB0A233C2D4C00053C8F /* crypto2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7C5EB05233C2D4B00053C8F /* crypto2.jpg */; };
+		D7C5EB0B233C2D4C00053C8F /* currency2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7C5EB06233C2D4B00053C8F /* currency2.jpg */; };
+		D7C5EB0C233C2D4C00053C8F /* crypto3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7C5EB07233C2D4B00053C8F /* crypto3.jpg */; };
+		D7C5EB0D233C2D4C00053C8F /* currency1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7C5EB08233C2D4C00053C8F /* currency1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,16 +61,16 @@
 		D7343A95233AC6D0001A8483 /* MultitoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultitoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7343A99233AC6D0001A8483 /* MultitoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitoolUITests.swift; sourceTree = "<group>"; };
 		D7343A9B233AC6D0001A8483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7343AAA233ADC3A001A8483 /* crypto2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crypto2.jpg; path = ../../../../../../Downloads/crypto2.jpg; sourceTree = "<group>"; };
-		D7343AAB233ADC3A001A8483 /* crypto1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crypto1.jpg; path = ../../../../../../Downloads/crypto1.jpg; sourceTree = "<group>"; };
-		D7343AAC233ADC3A001A8483 /* currency1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = currency1.jpg; path = ../../../../../../Downloads/currency1.jpg; sourceTree = "<group>"; };
-		D7343AAD233ADC3A001A8483 /* currency2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = currency2.png; path = ../../../../../../Downloads/currency2.png; sourceTree = "<group>"; };
-		D7343AAE233ADC3A001A8483 /* crypto3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crypto3.jpg; path = ../../../../../../Downloads/crypto3.jpg; sourceTree = "<group>"; };
 		D7343AB4233ADD09001A8483 /* multitoolMenu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = multitoolMenu.json; path = ../../../../../Downloads/multitoolMenu.json; sourceTree = "<group>"; };
 		D7343AB6233ADD6A001A8483 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 		D7343AB8233ADD8D001A8483 /* MenuImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuImage.swift; sourceTree = "<group>"; };
 		D7C5EAF6233C103D00053C8F /* MultitoolMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitoolMenuModel.swift; sourceTree = "<group>"; };
 		D7C5EAF8233C10E600053C8F /* MultitoolMenuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitoolMenuData.swift; sourceTree = "<group>"; };
+		D7C5EB04233C2D4B00053C8F /* crypto1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crypto1.jpg; sourceTree = "<group>"; };
+		D7C5EB05233C2D4B00053C8F /* crypto2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crypto2.jpg; sourceTree = "<group>"; };
+		D7C5EB06233C2D4B00053C8F /* currency2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = currency2.jpg; sourceTree = "<group>"; };
+		D7C5EB07233C2D4B00053C8F /* crypto3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crypto3.jpg; sourceTree = "<group>"; };
+		D7C5EB08233C2D4C00053C8F /* currency1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = currency1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,30 +166,14 @@
 		D7343AA7233ADBC7001A8483 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D7C5EB04233C2D4B00053C8F /* crypto1.jpg */,
+				D7C5EB05233C2D4B00053C8F /* crypto2.jpg */,
+				D7C5EB07233C2D4B00053C8F /* crypto3.jpg */,
+				D7C5EB08233C2D4C00053C8F /* currency1.jpg */,
+				D7C5EB06233C2D4B00053C8F /* currency2.jpg */,
 				D7343AB4233ADD09001A8483 /* multitoolMenu.json */,
-				D7343AA9233ADBFC001A8483 /* Crypto currency images */,
-				D7343AA8233ADBF0001A8483 /* Menu Images */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		D7343AA8233ADBF0001A8483 /* Menu Images */ = {
-			isa = PBXGroup;
-			children = (
-				D7343AAB233ADC3A001A8483 /* crypto1.jpg */,
-				D7343AAA233ADC3A001A8483 /* crypto2.jpg */,
-				D7343AAE233ADC3A001A8483 /* crypto3.jpg */,
-				D7343AAC233ADC3A001A8483 /* currency1.jpg */,
-				D7343AAD233ADC3A001A8483 /* currency2.png */,
-			);
-			path = "Menu Images";
-			sourceTree = "<group>";
-		};
-		D7343AA9233ADBFC001A8483 /* Crypto currency images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Crypto currency images";
 			sourceTree = "<group>";
 		};
 		D7343ABA233ADDEC001A8483 /* Models */ = {
@@ -307,13 +291,13 @@
 			files = (
 				D7343AB5233ADD09001A8483 /* multitoolMenu.json in Resources */,
 				D7343A84233AC6D0001A8483 /* LaunchScreen.storyboard in Resources */,
-				D7343AAF233ADC3B001A8483 /* crypto2.jpg in Resources */,
 				D7343A81233AC6D0001A8483 /* Preview Assets.xcassets in Resources */,
 				D7343A7E233AC6D0001A8483 /* Assets.xcassets in Resources */,
-				D7343AB1233ADC3B001A8483 /* currency1.jpg in Resources */,
-				D7343AB2233ADC3B001A8483 /* currency2.png in Resources */,
-				D7343AB3233ADC3B001A8483 /* crypto3.jpg in Resources */,
-				D7343AB0233ADC3B001A8483 /* crypto1.jpg in Resources */,
+				D7C5EB0D233C2D4C00053C8F /* currency1.jpg in Resources */,
+				D7C5EB09233C2D4C00053C8F /* crypto1.jpg in Resources */,
+				D7C5EB0B233C2D4C00053C8F /* currency2.jpg in Resources */,
+				D7C5EB0C233C2D4C00053C8F /* crypto3.jpg in Resources */,
+				D7C5EB0A233C2D4C00053C8F /* crypto2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

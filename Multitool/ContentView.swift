@@ -11,19 +11,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            VStack() {
-        HStack() {
-        MenuImage()
-            Text("Crypto currency prices")
-            Spacer()
-    }
-    .padding()
-        .navigationBarTitle("Multitool")
-    Spacer()
+            List(multitoolMenuData) { menu in
+                     MenuRow(menu: menu)
+
+             }
+             .navigationBarTitle(Text("Multitool"))
+            
             }
     }
     }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

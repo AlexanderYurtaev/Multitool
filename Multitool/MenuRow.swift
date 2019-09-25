@@ -9,13 +9,28 @@
 import SwiftUI
 
 struct MenuRow: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        var menu: MultitoolMenuModel
+
+        var body: some View {
+            HStack {
+                menu.image.resizable().frame(width: 80, height: 80)
+                    .clipShape(Circle())
+                .overlay(
+                               Circle().stroke(Color.white, lineWidth: 4))
+                           .shadow(radius: 10)
+                Text(verbatim: menu.name)
+                Spacer()
+            }
+        }
     }
-}
+
 
 struct MenuRow_Previews: PreviewProvider {
     static var previews: some View {
-        MenuRow()
+                Group {
+            MenuRow(menu: multitoolMenuData[0])
+            MenuRow(menu: multitoolMenuData[1])
+        }
+        .previewLayout(.fixed(width: 300, height: 70))
     }
 }

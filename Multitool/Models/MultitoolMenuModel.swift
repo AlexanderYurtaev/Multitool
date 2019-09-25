@@ -6,10 +6,16 @@
 //  Copyright © 2019 Юртаев Александр. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
 
 struct MultitoolMenuModel: Hashable, Codable, Identifiable {
-    var id: Int
     var name: String
-    var image: String
+    var id: Int
+    var imageName: String
+}
+
+extension MultitoolMenuModel {
+    var image: Image {
+        ImageStore.shared.image(name: imageName)
+    }
 }
