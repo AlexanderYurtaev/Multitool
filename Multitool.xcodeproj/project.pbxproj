@@ -22,6 +22,10 @@
 		D7343AB2233ADC3B001A8483 /* currency2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7343AAD233ADC3A001A8483 /* currency2.png */; };
 		D7343AB3233ADC3B001A8483 /* crypto3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7343AAE233ADC3A001A8483 /* crypto3.jpg */; };
 		D7343AB5233ADD09001A8483 /* multitoolMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = D7343AB4233ADD09001A8483 /* multitoolMenu.json */; };
+		D7343AB7233ADD6A001A8483 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7343AB6233ADD6A001A8483 /* MenuRow.swift */; };
+		D7343AB9233ADD8D001A8483 /* MenuImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7343AB8233ADD8D001A8483 /* MenuImage.swift */; };
+		D7C5EAF7233C103D00053C8F /* MultitoolMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C5EAF6233C103D00053C8F /* MultitoolMenuModel.swift */; };
+		D7C5EAF9233C10E600053C8F /* MultitoolMenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C5EAF8233C10E600053C8F /* MultitoolMenuData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		D7343AAD233ADC3A001A8483 /* currency2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = currency2.png; path = ../../../../../../Downloads/currency2.png; sourceTree = "<group>"; };
 		D7343AAE233ADC3A001A8483 /* crypto3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crypto3.jpg; path = ../../../../../../Downloads/crypto3.jpg; sourceTree = "<group>"; };
 		D7343AB4233ADD09001A8483 /* multitoolMenu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = multitoolMenu.json; path = ../../../../../Downloads/multitoolMenu.json; sourceTree = "<group>"; };
+		D7343AB6233ADD6A001A8483 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		D7343AB8233ADD8D001A8483 /* MenuImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuImage.swift; sourceTree = "<group>"; };
+		D7C5EAF6233C103D00053C8F /* MultitoolMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitoolMenuModel.swift; sourceTree = "<group>"; };
+		D7C5EAF8233C10E600053C8F /* MultitoolMenuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitoolMenuData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +121,12 @@
 		D7343A73233AC6CF001A8483 /* Multitool */ = {
 			isa = PBXGroup;
 			children = (
+				D7343ABA233ADDEC001A8483 /* Models */,
 				D7343A74233AC6CF001A8483 /* AppDelegate.swift */,
 				D7343A76233AC6CF001A8483 /* SceneDelegate.swift */,
 				D7343A7B233AC6CF001A8483 /* ContentView.swift */,
+				D7343AB6233ADD6A001A8483 /* MenuRow.swift */,
+				D7343AB8233ADD8D001A8483 /* MenuImage.swift */,
 				D7343A7D233AC6D0001A8483 /* Assets.xcassets */,
 				D7343A82233AC6D0001A8483 /* LaunchScreen.storyboard */,
 				D7343A85233AC6D0001A8483 /* Info.plist */,
@@ -179,6 +190,15 @@
 			children = (
 			);
 			path = "Crypto currency images";
+			sourceTree = "<group>";
+		};
+		D7343ABA233ADDEC001A8483 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7C5EAF6233C103D00053C8F /* MultitoolMenuModel.swift */,
+				D7C5EAF8233C10E600053C8F /* MultitoolMenuData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,10 +338,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7C5EAF7233C103D00053C8F /* MultitoolMenuModel.swift in Sources */,
+				D7343AB9233ADD8D001A8483 /* MenuImage.swift in Sources */,
+				D7C5EAF9233C10E600053C8F /* MultitoolMenuData.swift in Sources */,
 				D7343A75233AC6CF001A8483 /* AppDelegate.swift in Sources */,
 				D7343A7A233AC6CF001A8483 /* Multitool.xcdatamodeld in Sources */,
 				D7343A7C233AC6CF001A8483 /* ContentView.swift in Sources */,
 				D7343A77233AC6CF001A8483 /* SceneDelegate.swift in Sources */,
+				D7343AB7233ADD6A001A8483 /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

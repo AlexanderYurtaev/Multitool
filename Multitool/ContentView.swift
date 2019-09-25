@@ -10,13 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 3) {
-        Text("Hello World")
-            .font(.subheadline)
-            .foregroundColor(.green)
-
+        NavigationView {
+            VStack() {
+        HStack() {
+        MenuImage()
+            Text("Crypto currency prices")
+            Spacer()
     }
     .padding()
+        .navigationBarTitle("Multitool")
+    Spacer()
+            }
+    }
     }
 }
 
