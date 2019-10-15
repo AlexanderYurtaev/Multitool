@@ -28,6 +28,7 @@ struct MenuRow: View {
 struct MenuRow_Previews: PreviewProvider {
     static var previews: some View {
                 Group {
+                    //for test2
             MenuRow(menu: multitoolMenuData[0])
             MenuRow(menu: multitoolMenuData[1])
         }
