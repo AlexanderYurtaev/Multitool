@@ -30,6 +30,7 @@ struct MenuRow_Previews: PreviewProvider {
                 Group {
             MenuRow(menu: multitoolMenuData[0])
             MenuRow(menu: multitoolMenuData[1])
+                    //for tests
         }
         .previewLayout(.fixed(width: 300, height: 70))
     }
