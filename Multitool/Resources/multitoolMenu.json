@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Turtle Rock",
+        "id": 1,
+        "imageName": "crypto1"
+    },
+    {
+        "name": "Silver Salmon Creek",
+        "id": 2,
+        "imageName": "crypto2"
+    },
+    {
+        "name": "Chilkoot Trail",
+        "id": 3,
+        "imageName": "currency1"
+    },
+    {
+        "name": "St. Mary Lake",
+        "id": 4,
+        "imageName": "currency2"
+    }
+]

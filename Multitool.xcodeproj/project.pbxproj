@@ -16,9 +16,9 @@
 		D7343A84233AC6D0001A8483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7343A82233AC6D0001A8483 /* LaunchScreen.storyboard */; };
 		D7343A8F233AC6D0001A8483 /* MultitoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7343A8E233AC6D0001A8483 /* MultitoolTests.swift */; };
 		D7343A9A233AC6D0001A8483 /* MultitoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7343A99233AC6D0001A8483 /* MultitoolUITests.swift */; };
-		D7343AB5233ADD09001A8483 /* multitoolMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = D7343AB4233ADD09001A8483 /* multitoolMenu.json */; };
 		D7343AB7233ADD6A001A8483 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7343AB6233ADD6A001A8483 /* MenuRow.swift */; };
 		D7343AB9233ADD8D001A8483 /* MenuImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7343AB8233ADD8D001A8483 /* MenuImage.swift */; };
+		D7B50EB0236345470052EA48 /* multitoolMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = D7B50EAF236345470052EA48 /* multitoolMenu.json */; };
 		D7C5EAF7233C103D00053C8F /* MultitoolMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C5EAF6233C103D00053C8F /* MultitoolMenuModel.swift */; };
 		D7C5EAF9233C10E600053C8F /* MultitoolMenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C5EAF8233C10E600053C8F /* MultitoolMenuData.swift */; };
 		D7C5EB09233C2D4C00053C8F /* crypto1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7C5EB04233C2D4B00053C8F /* crypto1.jpg */; };
@@ -61,9 +61,9 @@
 		D7343A95233AC6D0001A8483 /* MultitoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultitoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7343A99233AC6D0001A8483 /* MultitoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitoolUITests.swift; sourceTree = "<group>"; };
 		D7343A9B233AC6D0001A8483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7343AB4233ADD09001A8483 /* multitoolMenu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = multitoolMenu.json; path = ../../../../../Downloads/multitoolMenu.json; sourceTree = "<group>"; };
 		D7343AB6233ADD6A001A8483 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 		D7343AB8233ADD8D001A8483 /* MenuImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuImage.swift; sourceTree = "<group>"; };
+		D7B50EAF236345470052EA48 /* multitoolMenu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = multitoolMenu.json; sourceTree = "<group>"; };
 		D7C5EAF6233C103D00053C8F /* MultitoolMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitoolMenuModel.swift; sourceTree = "<group>"; };
 		D7C5EAF8233C10E600053C8F /* MultitoolMenuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitoolMenuData.swift; sourceTree = "<group>"; };
 		D7C5EB04233C2D4B00053C8F /* crypto1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crypto1.jpg; sourceTree = "<group>"; };
@@ -170,8 +170,8 @@
 				D7C5EB05233C2D4B00053C8F /* crypto2.jpg */,
 				D7C5EB07233C2D4B00053C8F /* crypto3.jpg */,
 				D7C5EB08233C2D4C00053C8F /* currency1.jpg */,
+				D7B50EAF236345470052EA48 /* multitoolMenu.json */,
 				D7C5EB06233C2D4B00053C8F /* currency2.jpg */,
-				D7343AB4233ADD09001A8483 /* multitoolMenu.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -289,7 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7343AB5233ADD09001A8483 /* multitoolMenu.json in Resources */,
+				D7B50EB0236345470052EA48 /* multitoolMenu.json in Resources */,
 				D7343A84233AC6D0001A8483 /* LaunchScreen.storyboard in Resources */,
 				D7343A81233AC6D0001A8483 /* Preview Assets.xcassets in Resources */,
 				D7343A7E233AC6D0001A8483 /* Assets.xcassets in Resources */,
